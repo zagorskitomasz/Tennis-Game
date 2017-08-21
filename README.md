@@ -3,6 +3,7 @@ Tennis arcade game. Using Processing, Minim and Swing libraries. My recent Java 
 
 21.08.2017: Added some Lambda Expressions, so I could remove 3 useless classes. Example:
 
+		// Create and throw new power up every 8 sec.
 		tUpSt = new Timer(8000, event -> {
 			this.powerUp = new PowerUp(this);
 			this.tUp.stop();
