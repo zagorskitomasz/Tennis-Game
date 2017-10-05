@@ -94,7 +94,7 @@ public class Tennis extends PApplet {
 			text("Click to continue...", width/2, 490);
 			textSize(16);
 			fill(255,0,0);
-			text("Author: Tomasz Zagórski (zagorskitomasz@gmail.com)", width/2, 550);
+			text("Author: Tomasz Zagorski (zagorskitomasz@gmail.com)", width/2, 550);
 		}
 		else if(mode==1){
 			background(50,50,100);
